@@ -1,0 +1,57 @@
+body {
+  /* ESTO NO LO AGREGUEN */
+  border-color: blue;
+  border-style: solid;
+  border-width: 3px;
+}
+
+p {
+  color: red;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header {
+  /* margin-bottom: 100px;
+  margin-top: 25px; */
+
+  /* margin: vertical horizontal */
+  /* margin: arriba der abajo izq */
+  margin: 100px 0px;
+
+  border-radius: 0px 10px 20px 70px;
+
+  /* ESTO NO LO AGREGUEN */
+  border-color: green;
+  border-style: solid;
+  border-width: 3px;
+}
+
+div {
+  /* ESTO NO LO AGREGUEN */
+  border-color: green;
+  border-style: solid;
+  border-width: 3px;
+
+  border-radius: 30%;
+  height: 200px;
+  width: 200px;
+}
+
+section {
+  /* margin-left: 50px; */
+
+  margin: 0 30px;
+  padding: 10px 0;
+
+  border-radius: 20px;
+
+  /* ESTO NO LO AGREGUEN */
+  border-color: red;
+  border-width: 3px;
+  border-style: ridge;
+}

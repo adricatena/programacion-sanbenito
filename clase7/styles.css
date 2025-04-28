@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+  /* font-family:   sans-serif,Arial,Helvetica,; */
+}
+
+.desinteresado {
+  font-size: small;
+  color: #2f39c8;
+}
+
+p {
+  color: rgb(0, 0, 255);
+}
+h1 {
+  text-align: center;
+}
+#titulo-principal {
+  color: indigo;
+}
+.destacado {
+  font-size: x-large;
+  color: rgb(175, 82, 40);
+  background-color: black;
+}
+
+section > div > p {
+  font-size: xx-large;
+}
+
+ul > li {
+  list-style-type: square;
+}
+
+input {
+  border-color: red;
+}
+input[type="text"] {
+  border-width: 1px;
+}
+/* p:hover{
+    color: yellow
+}
+
+input[type="text"]:hover {
+    border-color: green;
+} */
