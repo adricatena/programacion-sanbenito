@@ -1,0 +1,54 @@
+.formulario {
+  margin: 20px;
+  padding: 25px;
+  border-width: 1px;
+  border-color: blue;
+  border-style: solid;
+}
+
+.boton {
+  color: red;
+  background-color: lightcoral;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+body {
+  border-width: 1px;
+  border-color: blue;
+  border-style: solid;
+}
+
+p {
+  /* fondo de color azul claro */
+  background-color: lightblue;
+  /* fuente tipo negrita */
+  font-weight: bold;
+  /* borde redondeado */
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: red;
+  border-style: dotted;
+  /* agregamos espacio interior */
+  padding: 10px;
+  /* que pasa si agregamos espacio EXTERIOR ??? */
+  margin: 5px;
+}
+
+.descripcion {
+  background-color: white;
+  border-style: none;
+}
+
+.tarjeta {
+  background-color: lightgrey;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  width: 150px;
+}
+section > h3 {
+  text-align: center;
+}
