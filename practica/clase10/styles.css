@@ -1,0 +1,28 @@
+.bloque{
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    padding: 5px;
+    box-sizing:border-box;
+}
+
+.linea {
+    display: inline;
+    margin: 10px;
+    background-color: lightcoral;
+}
+
+.bloque-linea {
+    display: inline-block;
+    background-color: lightcyan; margin: 10px;
+
+}
+
+.oculto {
+    display: none;
+}
