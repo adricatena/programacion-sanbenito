@@ -1,0 +1,20 @@
+.contenedor-tarjetas {
+  width: 100%;
+  display: flex;
+  /* orden horizontal */
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+.tarjeta {
+  background-color: lightcoral;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+
+  display: flex;
+  /* direccion vertical */
+  flex-direction: column;
+  align-items: center;
+}

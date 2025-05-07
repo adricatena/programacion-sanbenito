@@ -2,8 +2,30 @@
   box-sizing: border-box;
 }
 
+.flex-contenedor {
+  background-color: lightblue;
+  height: 200px;
+  width: "100%";
+  display: flex;
+
+  /* flex columm significa que
+   mi eje principal es "VERTICAL" */
+  /* flex row significa que
+   mi eje principal es "HORIZONTAL" */
+  flex-direction: column;
+  /* flex-direction: row; */
+
+  /* justify-content son propiedades
+   que se aplican sobre el eje principal */
+  justify-content: space-around;
+
+  /* align-items son propiedades
+  que se aplican sobre el eje secundario */
+  align-items: end;
+}
+
 .elemento1 {
-  margin: 50px;
+  margin: 10px;
 }
 .elemento2 {
   margin: 50px;
