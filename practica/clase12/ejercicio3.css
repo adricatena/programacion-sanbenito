@@ -1,0 +1,15 @@
+.contenedor-centrado {
+  display: flex;
+  background-color: lightblue;
+
+  height: 400px;
+  width: 300px;
+
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.caja-centrada {
+  background-color: lightcoral;
+}
