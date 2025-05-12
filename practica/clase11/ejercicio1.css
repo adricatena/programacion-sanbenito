@@ -5,7 +5,7 @@
   /* Ordenamos de manera VERTICAL */
   flex-direction: column;
   /* Le damos una separacion en el eje principal */
-  justify-content: space-between;
-  /* Los alineamos a la izquiera (eje secundario) */
+  justify-content: space-around;
+  /* Los alineamos a la izquierda (eje secundario) */
   align-items: start;
 }
